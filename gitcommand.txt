@@ -1,0 +1,16 @@
+  307  git status
+  308  git add testing.py
+  309  ls
+  310  git status
+  311  git rm --cached
+  312  git rm --cached testing.py
+  313  git status
+  314  git add testing.py
+  315  git status
+  316  git commit -m 'additng testing.py file'
+  317  git status
+  318  rm testing.py
+  319  ls
+  320  git status
+  321  git restore testing.py
+  322  ls
